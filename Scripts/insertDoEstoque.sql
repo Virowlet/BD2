@@ -1,0 +1,103 @@
+USE bdEstoque
+
+INSERT INTO tbFabricante(nomeFabricante)
+VALUES('Unilever')
+INSERT INTO tbFabricante(nomeFabricante)
+VALUES('P&G')
+INSERT INTO tbFabricante(nomeFabricante)
+VALUES('Bunge')
+
+
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Armando José Santana','12345678900','armandojsantana@outlook.com','m')
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Sheila Carvalho Leal','45678909823','scarvalho@ig.com.br','f')
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Carlos Henrique Souza','76598278299','chenrique@ig.com.br','m')
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Maria Aparecida Souza','87365309899','madasouza@outlook.com','f')
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Adriana Nogueira Silva','7635409388','drica1977@ig.com.br','f')
+INSERT INTO tbCliente(nomeCliente,cpfCliente,emailCliente,sexoCliente)
+VALUES('Paulo Henrique Silva','87390123111','phsilva@hotmail.com','m')
+
+
+INSERT INTO tbFornecedor(nomeFornecedor,contatoFornecedor)
+VALUES('Atacadão','Carlos Santos')
+INSERT INTO tbFornecedor(nomeFornecedor,contatoFornecedor)
+VALUES('Assai','Maria estella')
+INSERT INTO tbFornecedor(nomeFornecedor,contatoFornecedor)
+VALUES('Roldão','Paulo César')
+
+
+
+
+
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Amaciante Downy','5.76','1500')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Smaciante Confort','5.45','2300')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Sabão em pó OMO','5.99','1200')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('MArgarina Qually','4.76','2500')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Salsicha hot dog Sadia','6.78','2900')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Mortadela Perdigão','2.50','1200')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Hamburger Sadia','9.89','1600')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Fralda Pampers','36.00','340')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Xampu Seda','5.89','800')
+INSERT INTO tbProduto(descricaoProduto,quantidadeProduto,valorProduto)
+VALUES('Condicionador Seda','6.50','700')
+
+
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('01-02-2014','4500')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('03-02-2014','3400')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('10-02-2014','2100')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('15-02-2014','2700')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('17-03-2014','560')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('09-04-2014','1200')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('07-05-2014','3500')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('07-05-2014','3400')
+INSERT INTO tbVenda(dataVenda,valorTotalVenda)
+VALUES('05-05-2014','4000')
+
+
+
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('200','1500')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('300','3000')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('120','1400')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('200','1000')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('130','1000')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('200','2100')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('120','1000')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('450','700')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('200','560')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('200','600')
+INSERT INTO tbItensVenda(quantidadeItensVenda,subTotalItensVenda)
+VALUES('300','600')
+
+USE bdEstoque 
+DROP DATABASE bdEstoque
